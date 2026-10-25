@@ -1,0 +1,138 @@
+{
+  "_note": "General guidance (prevention and monitoring only). reviewed=false until a specialist matches it against IPM UC. No pesticide recipes.",
+  "ref": {
+    "cucumber": "IPM UC - Cucurbits",
+    "tomato": "IPM UC - Tomato"
+  },
+  "classes": {
+    "cucumber:powdery_mildew": {
+      "kind": "disease",
+      "humidity_linked": true,
+      "reviewed": false,
+      "actions": [
+        "Remove heavily infected leaves and dispose of them away from the crop",
+        "Improve ventilation and reduce plant crowding",
+        "Check new leaves every 2-3 days"
+      ],
+      "ipm_section": "IPM UC Cucurbits - Powdery Mildew (5/16)",
+      "ipm_matched": true,
+      "ipm_note": "Favored by RH 50-90% and moderate temperatures; resistant varieties, sanitation, weed control, monitor from vegetative stage"
+    },
+    "cucumber:downy_mildew": {
+      "kind": "disease",
+      "humidity_linked": true,
+      "reviewed": false,
+      "actions": [
+        "Reduce leaf wetness and avoid overhead irrigation",
+        "Improve ventilation, especially at night",
+        "Isolate infected plants and monitor spread"
+      ],
+      "ipm_section": "IPM UC Cucurbits - Downy Mildew (5/16)",
+      "ipm_matched": true,
+      "ipm_note": "Favored by rain, dew, cool weather and sprinklers; avoid overhead irrigation; monitor from vegetative stage"
+    },
+    "cucumber:healthy": {
+      "kind": "healthy",
+      "reviewed": false,
+      "actions": [
+        "No visible symptoms from the model classes; this is not a guarantee that the whole plant or roots are healthy"
+      ],
+      "ipm_section": null,
+      "ipm_matched": false,
+      "ipm_note": "Model-class guidance (healthy/deficiency); refer to CV296/HS787 for nutrition"
+    },
+    "cucumber:n_deficiency": {
+      "kind": "deficiency",
+      "reviewed": false,
+      "actions": [
+        "Review soil/solution analysis, fertilization, irrigation and pH",
+        "Do not convert the image into a fertilizer dose"
+      ],
+      "ipm_section": null,
+      "ipm_matched": false,
+      "ipm_note": "Model-class guidance (healthy/deficiency); refer to CV296/HS787 for nutrition"
+    },
+    "cucumber:k_deficiency": {
+      "kind": "deficiency",
+      "reviewed": false,
+      "actions": [
+        "Review soil/solution analysis, fertilization, irrigation and pH",
+        "Do not convert the image into a fertilizer dose"
+      ],
+      "ipm_section": null,
+      "ipm_matched": false,
+      "ipm_note": "Model-class guidance (healthy/deficiency); refer to CV296/HS787 for nutrition"
+    },
+    "tomato:late_blight": {
+      "kind": "disease",
+      "humidity_linked": true,
+      "reviewed": false,
+      "actions": [
+        "Remove infected parts and dispose of them away from the crop",
+        "Reduce humidity and leaf wetness and improve ventilation",
+        "Ask for specialist confirmation before any specific treatment"
+      ],
+      "ipm_section": "IPM UC Tomato - Late Blight (12/13)",
+      "ipm_matched": true,
+      "ipm_note": "Favored by RH>90% with 60-78F; avoid sprinkler irrigation; check transplants; remove volunteer tomato/potato/nightshade"
+    },
+    "tomato:early_blight": {
+      "kind": "disease",
+      "humidity_linked": true,
+      "reviewed": false,
+      "actions": [
+        "Remove infected lower leaves",
+        "Avoid leaf wetness and improve ventilation",
+        "Monitor spread"
+      ],
+      "ipm_section": "IPM UC Tomato - Early Blight (12/13)",
+      "ipm_matched": true,
+      "ipm_note": "Needs free moisture; destroy nightshades/volunteers; crop rotation"
+    },
+    "tomato:leaf_mold": {
+      "kind": "disease",
+      "humidity_linked": true,
+      "reviewed": false,
+      "actions": [
+        "Reduce high humidity and improve ventilation",
+        "Remove infected leaves",
+        "Monitor spread"
+      ],
+      "ipm_section": null,
+      "ipm_matched": false,
+      "ipm_note": "No leaf mold section in IPM UC Tomato (2016); needs another source"
+    },
+    "tomato:healthy": {
+      "kind": "healthy",
+      "reviewed": false,
+      "actions": [
+        "No visible symptoms from the model classes; this is not a guarantee that the whole plant or roots are healthy"
+      ],
+      "ipm_section": null,
+      "ipm_matched": false,
+      "ipm_note": "Model-class guidance (healthy/deficiency); refer to CV296/HS787 for nutrition"
+    },
+    "tomato:n_deficiency": {
+      "kind": "deficiency",
+      "reviewed": false,
+      "actions": [
+        "Review soil/solution analysis, fertilization, irrigation and pH",
+        "Do not convert the image into a fertilizer dose"
+      ],
+      "ipm_section": null,
+      "ipm_matched": false,
+      "ipm_note": "Model-class guidance (healthy/deficiency); refer to CV296/HS787 for nutrition"
+    },
+    "tomato:k_deficiency": {
+      "kind": "deficiency",
+      "reviewed": false,
+      "actions": [
+        "Review soil/solution analysis, fertilization, irrigation and pH",
+        "Do not convert the image into a fertilizer dose"
+      ],
+      "ipm_section": null,
+      "ipm_matched": false,
+      "ipm_note": "Model-class guidance (healthy/deficiency); refer to CV296/HS787 for nutrition"
+    }
+  }
+}

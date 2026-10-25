@@ -1,0 +1,266 @@
+{
+  "_note": "All thresholds are provisional (verified=false) until the team matches them against the references. A threshold without a reference or measurement method means insufficient data. allowed_media lists the media each profile covers (also provisional).",
+  "rule3_settings": {
+    "_note": "Provisional settings for rule 3, adjust per greenhouse.",
+    "day_start": 6,
+    "day_end": 18,
+    "rh_vent_max_outside_warmer_c": 5,
+    "verified": false
+  },
+  "crops": {
+    "cucumber": {
+      "open_field": {
+        "ref": "UF/IFAS CV296 Table 1/6 (pH). CV123 Ch.7 has no soil pH/EC limits",
+        "verified": false,
+        "allowed_media": [
+          "mineral_soil"
+        ],
+        "ph": {
+          "min": 6.0,
+          "max": 6.5,
+          "methods": [
+            "soil_water_1:2",
+            "saturated_paste",
+            "soil_water_1:1"
+          ]
+        },
+        "ec": {
+          "max": 2.5,
+          "unit": "mS/cm",
+          "methods": [
+            "saturated_paste"
+          ],
+          "source": "FAO Irrigation and Drainage Paper 29 Rev.1 (1985), ECe threshold 2.5 dS/m for tomato and cucumber (saturated paste). Threshold = where yield loss starts, not an unsuitable limit.",
+          "note": "Applies to mineral soil measured as saturated-paste ECe only. Soilless media / pour-through / solution EC have no limit yet: result is insufficient until a source (e.g. CV265) is added.",
+          "media": [
+            "mineral_soil"
+          ]
+        }
+      },
+      "greenhouse": {
+        "ref": "UF/IFAS CV268 / CV265",
+        "verified": false,
+        "allowed_media": [
+          "mineral_soil",
+          "peat",
+          "peat_perlite",
+          "perlite",
+          "coco",
+          "rockwool"
+        ],
+        "ph": {
+          "min": 5.5,
+          "max": 6.5,
+          "methods": [
+            "soil_water_1:2",
+            "saturated_paste",
+            "substrate_pour_through"
+          ]
+        },
+        "ec": {
+          "max": 2.5,
+          "unit": "mS/cm",
+          "methods": [
+            "saturated_paste"
+          ],
+          "source": "FAO Irrigation and Drainage Paper 29 Rev.1 (1985), ECe threshold 2.5 dS/m for tomato and cucumber (saturated paste). Threshold = where yield loss starts, not an unsuitable limit.",
+          "note": "Applies to mineral soil measured as saturated-paste ECe only. Soilless media / pour-through / solution EC have no limit yet: result is insufficient until a source (e.g. CV265) is added.",
+          "media": [
+            "mineral_soil"
+          ]
+        },
+        "air": {
+          "vegetative": {
+            "day": {
+              "t": [
+                26.7,
+                29.4
+              ],
+              "rh": [
+                60,
+                85
+              ]
+            },
+            "night": {
+              "t": [
+                18.3,
+                22.0
+              ],
+              "rh": [
+                60,
+                90
+              ]
+            }
+          },
+          "fruiting": {
+            "day": {
+              "t": [
+                26.7,
+                29.4
+              ],
+              "rh": [
+                60,
+                85
+              ]
+            },
+            "night": {
+              "t": [
+                18.3,
+                22.0
+              ],
+              "rh": [
+                60,
+                90
+              ]
+            }
+          }
+        },
+        "co2_ppm": {
+          "min": 350,
+          "max": 1500
+        },
+        "dli_mol": {
+          "min": 15,
+          "max": 30,
+          "source": "MSU Extension (lighting vegetable crops): vine crops at least 15, preferably above 20 mol/m2/day; Cornell via Hort Americas: cucumber min 15, optimum 30. Northern-latitude sources: still provisional.",
+          "good_min": 20,
+          "good_max": 30
+        },
+        "air_source": "HS790: 80-85F required, not below 65F (18.3C), avoid sustained >95F (35C). Night upper limit and RH are provisional."
+      }
+    },
+    "tomato": {
+      "open_field": {
+        "ref": "UF/IFAS CV296 Table 1/6 (pH). CV137 Ch.18 has no soil pH/EC limits",
+        "verified": false,
+        "allowed_media": [
+          "mineral_soil"
+        ],
+        "ph": {
+          "min": 6.0,
+          "max": 6.5,
+          "methods": [
+            "soil_water_1:2",
+            "saturated_paste",
+            "soil_water_1:1"
+          ]
+        },
+        "ec": {
+          "max": 2.5,
+          "unit": "mS/cm",
+          "methods": [
+            "saturated_paste"
+          ],
+          "source": "FAO Irrigation and Drainage Paper 29 Rev.1 (1985), ECe threshold 2.5 dS/m for tomato and cucumber (saturated paste). Threshold = where yield loss starts, not an unsuitable limit.",
+          "note": "Applies to mineral soil measured as saturated-paste ECe only. Soilless media / pour-through / solution EC have no limit yet: result is insufficient until a source (e.g. CV265) is added.",
+          "media": [
+            "mineral_soil"
+          ]
+        }
+      },
+      "greenhouse": {
+        "ref": "UF/IFAS CV266 / CV265",
+        "verified": false,
+        "allowed_media": [
+          "mineral_soil",
+          "peat",
+          "peat_perlite",
+          "perlite",
+          "coco",
+          "rockwool"
+        ],
+        "ph": {
+          "min": 5.5,
+          "max": 6.5,
+          "methods": [
+            "soil_water_1:2",
+            "saturated_paste",
+            "substrate_pour_through"
+          ]
+        },
+        "ec": {
+          "max": 2.5,
+          "unit": "mS/cm",
+          "methods": [
+            "saturated_paste"
+          ],
+          "source": "FAO Irrigation and Drainage Paper 29 Rev.1 (1985), ECe threshold 2.5 dS/m for tomato and cucumber (saturated paste). Threshold = where yield loss starts, not an unsuitable limit.",
+          "note": "Applies to mineral soil measured as saturated-paste ECe only. Soilless media / pour-through / solution EC have no limit yet: result is insufficient until a source (e.g. CV265) is added.",
+          "media": [
+            "mineral_soil"
+          ]
+        },
+        "air": {
+          "vegetative": {
+            "day": {
+              "t": [
+                26.7,
+                29.4
+              ],
+              "rh": [
+                60,
+                80
+              ]
+            },
+            "night": {
+              "t": [
+                16.7,
+                22.2
+              ],
+              "rh": [
+                60,
+                85
+              ]
+            }
+          },
+          "fruiting": {
+            "day": {
+              "t": [
+                26.7,
+                29.4
+              ],
+              "rh": [
+                60,
+                80
+              ]
+            },
+            "night": {
+              "t": [
+                16.7,
+                22.2
+              ],
+              "rh": [
+                60,
+                85
+              ]
+            }
+          }
+        },
+        "co2_ppm": {
+          "min": 350,
+          "max": 1500
+        },
+        "dli_mol": {
+          "min": 10,
+          "max": 30,
+          "good_min": 14,
+          "good_max": 20,
+          "high_quality_min": 22,
+          "source": "Purdue HO-238-W Table 2 (Lycopersicon): 10-12 minimum acceptable, 14-20 good, 22+ high quality"
+        },
+        "air_source": "HS788: day 80-85F, night 62-72F (converted to C). RH values still provisional."
+      }
+    }
+  },
+  "irrigation_thresholds": {
+    "_note": "VWC thresholds must be calibrated per medium and measurement method. If empty, the rule refuses to decide.",
+    "example_peat_perlite": {
+      "start": 35,
+      "stop": 55,
+      "target": 45,
+      "unit": "%VWC",
+      "method": "capacitive_calibrated",
+      "verified": false
+    }
+  }
+}
